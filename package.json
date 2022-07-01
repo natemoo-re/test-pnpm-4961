@@ -10,6 +10,7 @@
   "author": "Black-Hole <158blackhole@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "replace-buffer": "^1.2.1",
     "rfc4648": "^1.5.2"
   }
 }

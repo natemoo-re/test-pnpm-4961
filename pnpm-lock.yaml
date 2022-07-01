@@ -1,12 +1,19 @@
 lockfileVersion: 5.4
 
 specifiers:
+  replace-buffer: ^1.2.1
   rfc4648: ^1.5.2
 
 dependencies:
+  replace-buffer: 1.2.1
   rfc4648: 1.5.2
 
 packages:
+
+  /replace-buffer/1.2.1:
+    resolution: {integrity: sha512-ly3OKwKu+3T55DjP5PjIMzxgz9lFx6dQnBmAIxryZyRKl8f22juy12ShOyuq8WrQE5UlFOseZgQZDua0iF9DHw==}
+    engines: {node: '>=4'}
+    dev: false
 
   /rfc4648/1.5.2:
     resolution: {integrity: sha512-tLOizhR6YGovrEBLatX1sdcuhoSCXddw3mqNVAcKxGJ+J0hFeJ+SjeWCv5UPA/WU3YzWPPuCVYgXBKZUPGpKtg==}
