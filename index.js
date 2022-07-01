@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { base32 } = require("rfc4648");
 const crypto = require("crypto");
+const replaceBuffer = require("replace-buffer");
 const os = require("os");
 
 function createBase32Hash (str) {
@@ -9,7 +10,7 @@ function createBase32Hash (str) {
 }
 
 async function createBase32HashFromFile (file) {
-    return createBase32Hash(await fs.promises.readFile(file, 'utf8'))
+    return createBase32Hash(replaceBuffer(await fs.promises.readFile(file, 'utf8'), '\r\n', '\n'))
 }
 
 const patch = path.join(__dirname, "test.patch");
