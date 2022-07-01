@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+specifiers:
+  rfc4648: ^1.5.2
+
+dependencies:
+  rfc4648: 1.5.2
+
+packages:
+
+  /rfc4648/1.5.2:
+    resolution: {integrity: sha512-tLOizhR6YGovrEBLatX1sdcuhoSCXddw3mqNVAcKxGJ+J0hFeJ+SjeWCv5UPA/WU3YzWPPuCVYgXBKZUPGpKtg==}
+    dev: false
